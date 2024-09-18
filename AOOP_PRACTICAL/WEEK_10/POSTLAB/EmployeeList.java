@@ -10,7 +10,7 @@ public class EmployeeList implements Iterable<Employee> {
     }
 
     public void addEmployee(Employee employee) {
-        employees.add(employee.clone()); // Clone employee before adding to the list
+        employees.add(employee.clone()); 
     }
 
     @Override
